@@ -21,18 +21,24 @@
                 <a class="nav nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Le blog du gouffre !
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonAdmin">
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonAdminDashboard">
                     <li><a class ="dropdown-item" href="#">Dashboard</a></li>
                     <li><a class ="dropdown-item" href="#">Menus</a></li>
                 </ul>
             </div>
+
+            <div class="dropdown">
+                <a class="nav nav-link dropdown-toggle text-white" role = "button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Ajouter
+                </a>
+                <ul class = "dropdown-menu" aria-labelledby="dropdownMenuButtonAdminAdd">
+                    <li><a class="dropdown-item" href="#">Article</a></li>
+                    <li><a class="dropdown-item" href="#">Page</a></li>
+                </ul>
+            </div>
+
         </div>
     </nav>
-
-
-
-
-
 {% block body %}{% endblock %}
 </body>
 </html>
