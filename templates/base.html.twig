@@ -14,16 +14,15 @@
         {% endblock %}
     </head>
     <body>
-        <main class ="container">
-            <div class ="row">
-                <div class = "col-md-8">
-
-                </div>
-                <div class = "col-md-4">
-
-                </div>
+        <nav class="py-2 bg-dark border-bottom">
+            <div class="container d-flex flex-wrap">
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" type ="button" id = "dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Bouton deroulant
+                    </a>
+                </div>s
             </div>
-        </main>
+        </nav>
         {% block body %}{% endblock %}
     </body>
 </html>
